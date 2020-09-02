@@ -3,7 +3,7 @@ import TodoList from './TodoList';
 
 function App() {
 
-  const [ todos, setTodos] = useState(['todo1', 'todo2', 'todo3']);
+  const [ todos, setTodos] = useState([{id: 1, name: 'todo1', completed: true}, {id: 2, name: 'todo2', completed: false}]);
 
   return (
     <>
@@ -12,7 +12,7 @@ function App() {
       <button>Add Todo</button>
       <button>Clear Completed</button>
       <div>0 left to do</div>
-    </>
+    </> 
   )
 }
 
