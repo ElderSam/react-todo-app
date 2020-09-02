@@ -1,8 +1,9 @@
 import React from 'react';
+import TodoList from './TodoList';
 
 function App() {
   return (
-    <h1>My todo list in React</h1>
+    <TodoList />
   );
 }
 
